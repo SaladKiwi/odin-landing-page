@@ -3,6 +3,7 @@
     margin: -10px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .container-2 {
@@ -57,4 +58,35 @@ h1 {
 .hero-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.middle-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middle-5 {
+    display: flex;
+    gap: 52px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.middle-2,
+.middle-3,
+.middle-4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    border: 50px;
+    border-color: #1F2937;
+    font-size: 18px;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }

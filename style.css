@@ -90,3 +90,72 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 0 -10px;
+    flex-wrap: wrap;
+    padding: 100px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 50px;
+}
+
+.ctac1 {
+    background-color: #3882f6;
+    width: 600px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ctac2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin: 52px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.ctacc {
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 50px;
+    margin: 0 -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
